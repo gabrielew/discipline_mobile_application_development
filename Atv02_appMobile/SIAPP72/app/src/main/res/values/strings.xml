@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SIAPP7-2</string>
+    <string name="txt_img_logo">LOGO-SI</string>
+    /* Menu Screen */
+    <string name="txt_top">Restaurante SI7</string>
+    /* CheckBox Strings */
+    <string name="txt_cardapio">Cardapio</string>
+    <string name="chk_arroz">Arroz</string>
+    <string name="chk_feijao">Feijao</string>
+    <string name="chk_batataFrita">Batata Frita</string>
+    <string name="chk_cocaCola">Coca Cola</string>
+    /* CheckBox Strings */
+    /* Radio Group Strings*/
+    <string name="txt_metodoPagamento">Metodo de pagamento</string>
+    <string name="rb_dinheiro">Dinheiro</string>]
+    <string name="rb_Debito">Debito</string>
+    <string name="rb_Credito">Credito</string>
+    /* Radio Group Strings*/
+    <string name="btn_pedir">Realizar Pedido</string>
+    /* Menu Screen */
+
+    /* Confirmar Pedido */
+    <string name="txtConfPedido">Confirmar Pedido</string>
+    <string name="txtConfSobreMesa">Sobremesa</string>
+    <string name="btn_adicionarSobremesa">Adicionar Sobremesa</string>
+    <string name="txt_confComentarios">Comentarios/Elogios</string>
+    <string name="btn_adicionarComentarios">Adicionar Comentarios</string>
+    <string name="hint_confComentarios">Digite aqui seu comentario</string>
+    /* Confirmar Pedido */
+</resources>

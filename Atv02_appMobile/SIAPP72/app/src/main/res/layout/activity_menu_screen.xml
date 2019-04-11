@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_top"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/txtCardapio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_cardapio"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/chkArroz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_arroz" />
+
+    <CheckBox
+        android:id="@+id/chkFeijao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_feijao" />
+
+    <CheckBox
+        android:id="@+id/chkBatataFrita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_batataFrita" />
+
+    <CheckBox
+        android:id="@+id/chkCocaCola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_cocaCola" />
+
+    <TextView
+        android:id="@+id/txtMetodoPag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:text="@string/txt_metodoPagamento" />
+
+    <RadioGroup
+        android:id="@+id/rgMetodoPag"
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+
+        <RadioButton
+            android:id="@+id/rbDinheiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_dinheiro" />
+
+        <RadioButton
+            android:id="@+id/rbDebito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_Debito" />
+
+        <RadioButton
+            android:id="@+id/rbCredito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_Credito" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRealizarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_pedir" />
+
+    </LinearLayout>
+</ScrollView>
