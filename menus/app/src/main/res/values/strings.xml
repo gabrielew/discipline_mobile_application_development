@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Menu</string>
-    <string name="menu_adicionar">Adicionar</string>
-    <string name="menu_editar">Editar</string>
-    <string name="menu_apagar">Apagar</string>
-    <string name="menu_ajuda">Ajuda</string>
-</resources>
