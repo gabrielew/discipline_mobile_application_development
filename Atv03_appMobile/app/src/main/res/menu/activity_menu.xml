@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_adicionar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_adicionar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_editar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/menu_editar" />
+    <item android:id="@+id/menu_apagar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/menu_apagar" />
+    <item android:id="@+id/menu_ajuda"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/menu_ajuda" />
+</menu>
