@@ -6,29 +6,576 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txtMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:background="@android:color/white"
+            android:id="@+id/layoutCardAnderson"
+            android:elevation="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:contentDescription="anderson"
+                android:id="@+id/imgAnderson"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/anderson"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeAnderson"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_anderson"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseAnderson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fanderson"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnAnderson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="breno"
+                android:id="@+id/imgBrno"
+                app:srcCompat="@drawable/breno"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeBreno"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_breno"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseBreno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fbreno"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnBreno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="bruno"
+                android:id="@+id/imgBreno"
+                app:srcCompat="@drawable/bruno"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeBruno"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_bruno"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseBruno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fbruno"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnBruno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Camilo"
+                android:id="@+id/imgCamilo"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/camilo"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeCamilo"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_camilo"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseCamilo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fcamilo"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnCamilo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Gabriel"
+                android:id="@+id/imgGabriel"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/gabriel"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeGabriel"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_gabriel"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseGabriel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fgabriel"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnGabriel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Lauro"
+                android:id="@+id/imgLauro"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/lauro"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeLauro"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_lauro"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseLauro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Flauro"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnLauro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Lauro"
+                android:id="@+id/imgluis"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/luis"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeLuis"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_luis"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseLuis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fluis"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnLuis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Marcelo"
+                android:id="@+id/imgMarcelo"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/marcelo"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeMarcelo"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_marcelo"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseMarcelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fmarcelo"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnMarcelo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Pedro"
+                android:id="@+id/imgPedro"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pedro"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomePedro"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_pedro"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFrasePedro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fpedro"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnPedro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Regis"
+                android:id="@+id/imgRegis"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/regis"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeRegis"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_regis"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseRegis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fregis"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnRegis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Samuel"
+                android:id="@+id/imgSamuel"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/samuel"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeSamuel"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_samuel"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseSamuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fsamuel"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnSamuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Renan"
+                android:id="@+id/imgRenan"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/renan"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeRenan"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_renan"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseRenan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Frenan"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnRenan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <ImageView
+                android:contentDescription="Vinicius"
+                android:id="@+id/imgVinicius"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/vinicius"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeVinicius"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_vinicius"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseVinicius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Fvinicius"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnVinicius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbarPrincipal"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:layout_marginBottom="60dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent" />
+
+
+
 
 </android.support.constraint.ConstraintLayout>

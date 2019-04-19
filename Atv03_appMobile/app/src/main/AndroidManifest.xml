@@ -9,7 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".add_activity"></activity>
+        <activity android:name=".verMaisVinicius_activity" />
+        <activity android:name=".verMaisSamuel_activity" />
+        <activity android:name=".verMaisRenan_activity" />
+        <activity android:name=".verMaisRegis_activity" />
+        <activity android:name=".verMaisPedro_activity" />
+        <activity android:name=".verMaisMarcelo_activity" />
+        <activity android:name=".verMaisLuis_activity" />
+        <activity android:name=".verMaisLauro_activity" />
+        <activity android:name=".verMaisGabriel_activity" />
+        <activity android:name=".verMaisCamilo_activity" />
+        <activity android:name=".verMaisBruno_activity" />
+        <activity android:name=".verMaisBreno_activity" />
+        <activity android:name=".verMaisAnderson_activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".iniciando_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

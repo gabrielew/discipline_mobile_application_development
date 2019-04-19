@@ -7,9 +7,9 @@
         android:title="@string/menu_adicionar"
         app:showAsAction="always"/>
     <item
-        android:id="@+id/menu_editar"
+        android:id="@+id/menu_listar"
         android:icon="@android:drawable/ic_menu_edit"
-        android:title="@string/menu_editar" />
+        android:title="@string/menu_listar" />
     <item android:id="@+id/menu_apagar"
         android:icon="@android:drawable/ic_menu_delete"
         android:title="@string/menu_apagar" />
