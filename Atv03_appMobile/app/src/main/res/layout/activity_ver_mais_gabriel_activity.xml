@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".verMaisGabriel_activity">
-
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
 
         <LinearLayout
@@ -21,13 +17,13 @@
             android:layout_margin="10sp"
             android:orientation="vertical">
 
-            <ImageView
-                android:contentDescription="Gabriel"
-                android:id="@+id/imgGabriel"
-                android:layout_height="350dp"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/gabriel"
-                android:layout_width="match_parent" />
+                <ImageView
+                    android:id="@+id/imgGabriel"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:contentDescription="Gabriel"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/gabriel" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -41,7 +37,7 @@
                 android:layout_marginLeft="20dp"
                 android:text="@string/txt_gabriel"
                 android:textSize="20dp" />
-
+-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -139,7 +135,5 @@
                 android:layout_height="wrap_content" />
 
 
-
         </LinearLayout>
-    </ScrollView>
-</android.support.constraint.ConstraintLayout>
+</ScrollView>

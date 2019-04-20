@@ -9,22 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".add_activity"></activity>
-        <activity android:name=".verMaisVinicius_activity" />
-        <activity android:name=".verMaisSamuel_activity" />
-        <activity android:name=".verMaisRenan_activity" />
-        <activity android:name=".verMaisRegis_activity" />
-        <activity android:name=".verMaisPedro_activity" />
-        <activity android:name=".verMaisMarcelo_activity" />
-        <activity android:name=".verMaisLuis_activity" />
-        <activity android:name=".verMaisLauro_activity" />
-        <activity android:name=".verMaisGabriel_activity" />
-        <activity android:name=".verMaisCamilo_activity" />
-        <activity android:name=".verMaisBruno_activity" />
-        <activity android:name=".verMaisBreno_activity" />
-        <activity android:name=".verMaisAnderson_activity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".iniciando_activity">
+        <activity android:name=".add_activity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".verMaisVinicius_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisSamuel_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisRenan_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisRegis_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisPedro_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisMarcelo_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisLuis_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisLauro_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisGabriel_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisCamilo_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisBruno_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisBreno_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".verMaisAnderson_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".iniciando_activity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

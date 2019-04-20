@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:background="@android:color/white"
-            android:id="@+id/layoutCardAnderson"
-            android:elevation="2dp"
+            android:background="#ffffff"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/layoutCardAnderson"
+            android:elevation="2dp"
             android:layout_margin="10sp"
             android:orientation="vertical">
 
             <ImageView
-                android:contentDescription="anderson"
                 android:id="@+id/imgAnderson"
+                android:layout_width="match_parent"
                 android:layout_height="350dp"
+                android:contentDescription="anderson"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/anderson"
-                android:layout_width="match_parent" />
+                app:srcCompat="@drawable/anderson" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -62,13 +61,24 @@
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardBreno"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
             <ImageView
-                android:contentDescription="breno"
                 android:id="@+id/imgBrno"
-                app:srcCompat="@drawable/breno"
+                android:layout_width="match_parent"
                 android:layout_height="350dp"
+                android:contentDescription="breno"
                 android:scaleType="centerCrop"
-                android:layout_width="match_parent"/>
+                app:srcCompat="@drawable/breno" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -102,6 +112,18 @@
                 android:text="@string/btnVerMais"
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardBruno"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
 
             <ImageView
                 android:contentDescription="bruno"
@@ -144,6 +166,17 @@
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardCamilo"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
             <ImageView
                 android:contentDescription="Camilo"
                 android:id="@+id/imgCamilo"
@@ -184,6 +217,18 @@
                 android:text="@string/btnVerMais"
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardGabriel"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
 
             <ImageView
                 android:contentDescription="Gabriel"
@@ -226,6 +271,17 @@
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardLauro"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
             <ImageView
                 android:contentDescription="Lauro"
                 android:id="@+id/imgLauro"
@@ -266,6 +322,17 @@
                 android:text="@string/btnVerMais"
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardLuis"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
 
             <ImageView
                 android:contentDescription="Lauro"
@@ -308,6 +375,18 @@
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
 
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardMarcelo"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
             <ImageView
                 android:contentDescription="Marcelo"
                 android:id="@+id/imgMarcelo"
@@ -348,6 +427,17 @@
                 android:text="@string/btnVerMais"
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardPedro"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
 
             <ImageView
                 android:contentDescription="Pedro"
@@ -390,6 +480,17 @@
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardRegis"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
             <ImageView
                 android:contentDescription="Regis"
                 android:id="@+id/imgRegis"
@@ -430,6 +531,69 @@
                 android:text="@string/btnVerMais"
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardRenan"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:contentDescription="Renan"
+                android:id="@+id/imgRenan"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/renan"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtNomeRenan"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/txt_renan"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtFraseRenan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Frenan"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:id="@+id/btnRenan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVerMais"
+                android:layout_marginLeft="10dp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardSamuel"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
 
             <ImageView
                 android:contentDescription="Samuel"
@@ -472,46 +636,16 @@
                 android:layout_marginLeft="10dp"
                 style="?android:attr/borderlessButtonStyle"/>
 
-            <ImageView
-                android:contentDescription="Renan"
-                android:id="@+id/imgRenan"
-                android:layout_height="350dp"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/renan"
-                android:layout_width="match_parent" />
+        </LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/txtNomeRenan"
-                android:textStyle="bold"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:text="@string/txt_renan"
-                android:textSize="20dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/txtFraseRenan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/txt_Frenan"
-                android:textSize="16dp"
-                android:layout_marginLeft="20dp"/>
-
-            <Button
-                android:id="@+id/btnRenan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/btnVerMais"
-                android:layout_marginLeft="10dp"
-                style="?android:attr/borderlessButtonStyle"/>
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutCardVinicius"
+            android:elevation="2dp"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
 
             <ImageView
                 android:contentDescription="Vinicius"
@@ -557,25 +691,16 @@
         </LinearLayout>
 
 
-    </ScrollView>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2b2848"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"/>
 
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbarPrincipal"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="60dp"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
 
 
-
-
-</android.support.constraint.ConstraintLayout>
+</ScrollView>

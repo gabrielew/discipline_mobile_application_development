@@ -20,13 +20,6 @@ public class add_activity extends AppCompatActivity implements Toolbar.OnMenuIte
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.mipmap.ic_launcher);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbarPrincipal);
-        toolbar.inflateMenu(R.menu.activity_menu);
-        toolbar.setTitle("");
-        toolbar.setNavigationIcon(R.mipmap.ic_launcher);
-        toolbar.setOnMenuItemClickListener(this);
-
-
     }
 
     @Override
@@ -38,24 +31,25 @@ public class add_activity extends AppCompatActivity implements Toolbar.OnMenuIte
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         String texto = "";
+        Intent i;
         switch (item.getItemId()) {
             case R.id.menu_adicionar:
                 texto = "ADICIONAR";
                 return false;
             case R.id.menu_listar:
                 texto = "LISTAR";
-                Intent li = new Intent(this, MainActivity.class);
-                startActivity(li);
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
                 return false;
             case R.id.menu_apagar:
                 texto = "APAGAR";
-                Intent ap = new Intent(this, add_activity.class);
-                startActivity(ap);
+                i = new Intent(this, add_activity.class);
+                startActivity(i);
                 return false;
             case R.id.menu_ajuda:
                 texto = "AJUDA";
-                Intent aj = new Intent(this, verMaisGabriel_activity.class);
-                startActivity(aj);
+                i = new Intent(this, verMaisGabriel_activity.class);
+                startActivity(i);
                 return false;
             case android.R.id.home:
                 texto = "Você clicou no ICONE";
@@ -69,24 +63,25 @@ public class add_activity extends AppCompatActivity implements Toolbar.OnMenuIte
     @Override
     public boolean onMenuItemClick(MenuItem menuItem) {
         String texto = "";
+        Intent i;
         switch (menuItem.getItemId()) {
             case R.id.menu_adicionar:
                 texto = "ADICIONAR";
                 return false;
             case R.id.menu_listar:
                 texto = "LISTAR";
-                Intent li = new Intent(this, MainActivity.class);
-                startActivity(li);
+                i = new Intent(this, MainActivity.class);
+                startActivity(i);
                 return false;
             case R.id.menu_apagar:
                 texto = "APAGAR";
-                Intent ap = new Intent(this, add_activity.class);
-                startActivity(ap);
+                i = new Intent(this, add_activity.class);
+                startActivity(i);
                 return false;
             case R.id.menu_ajuda:
                 texto = "AJUDA";
-                Intent aj = new Intent(this, verMaisGabriel_activity.class);
-                startActivity(aj);
+                i = new Intent(this, verMaisGabriel_activity.class);
+                startActivity(i);
                 return false;
             case android.R.id.home:
                 texto = "ICONE";
